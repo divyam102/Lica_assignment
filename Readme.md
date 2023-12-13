@@ -86,7 +86,7 @@ arguments - <br />
 "/home/divyam/divyam/DINet/Drive.mp4" - video path <br />
 "/home/divyam/divyam/DINet/asserts/examples/driving_audio_1.wav" - audio path <br />
 bool - True - would enable gfpgan <br />
-- False - would disable gfpgan <br />
+    - False - would disable gfpgan <br />
 
 python run.py <br />
 

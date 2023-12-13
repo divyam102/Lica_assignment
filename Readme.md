@@ -1,6 +1,6 @@
 ## LIP SYNC 
 
-## Setting up Openface 
+## Setting up Openface (Building it from scratch)
 
 # Cloning the Openface repo 
 git clone https://github.com/TadasBaltrusaitis/OpenFace.git
@@ -67,7 +67,8 @@ make <br />
 
 After building Openface from scratch move it to DINET folder , everything else is taken care of there  <br />
 cd ../
-mv OpenFace/ DINet/ 
+rm -rf DINet/OpenFace <br /> (deleting the already present OpenFace inside DINet)
+mv OpenFace/ DINet/ <br />
 cd DINet <br />
 
 # Create a conda environment 

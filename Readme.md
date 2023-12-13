@@ -66,7 +66,7 @@ make <br />
 ./bin/FaceLandmarkVidMulti -f ../samples/multi_face.avi <br />
 
 After building Openface from scratch move it to DINET folder , everything else is taken care of there  <br />
-cd ../
+cd ../ <br />
 rm -rf DINet/OpenFace <br /> (deleting the already present OpenFace inside DINet)
 mv OpenFace/ DINet/ <br />
 cd DINet <br />

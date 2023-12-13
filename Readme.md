@@ -67,7 +67,7 @@ make <br />
 
 After building Openface from scratch move it to DINET folder , everything else is taken care of there  <br />
 cd ../ <br />
-rm -rf DINet/OpenFace <br /> (deleting the already present OpenFace inside DINet)
+rm -rf DINet/OpenFace (deleting the already present OpenFace inside DINet) <br />
 mv OpenFace/ DINet/ <br />
 cd DINet <br />
 

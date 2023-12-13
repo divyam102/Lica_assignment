@@ -66,6 +66,8 @@ make <br />
 ./bin/FaceLandmarkVidMulti -f ../samples/multi_face.avi <br />
 
 After building Openface from scratch move it to DINET folder , everything else is taken care of there  <br />
+cd ../
+mv OpenFace/ DINet/ 
 cd DINet <br />
 
 # Create a conda environment 

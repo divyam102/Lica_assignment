@@ -75,7 +75,7 @@ cd DINet <br />
 conda create -n lipsync python=3.9.18 <br />
 conda activate lipsync <br />
 cat requirements.txt | xargs -n 1 pip install <br />
-(All the dependencies would be installed) <br />
+(All the dependencies would be installed inside the activated environment) <br />
 
 # To run the api i.e. run.py (line 287)
 

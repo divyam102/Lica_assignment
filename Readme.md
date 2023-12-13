@@ -77,7 +77,9 @@ conda activate lipsync <br />
 cat requirements.txt | xargs -n 1 pip install <br />
 (All the dependencies would be installed inside the activated environment) <br />
 
-# To run the api i.e. run.py (line 287)
+# To run the api i.e. run.py 
+
+change line 287 (to add arguments for video path, audio path, gfpgan) <br />
 
 ```
 obj.infer("/home/divyam/divyam/DINet/Drive.mp4", "/home/divyam/divyam/DINet/asserts/examples/driving_audio_1.wav", False)
